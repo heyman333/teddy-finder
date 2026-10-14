@@ -212,7 +212,9 @@ extension ContentView {
     /// 사진 모드: 한 장이라 바로 판정하고, 찾았으면 기록.
     func detect(_ img: UIImage) {
         let t = target
-        detector.detect(img) { hits in
+        detector.detect(img) { found in
+            var hits = found
+            if case .custom = t, let demo = Demo.hits { hits = demo }   // 시뮬레이터는 특징값 비교를 못 돌려서 Mac에서 계산한 결과를 주입
             if tracker.single(hits), let b = tracker.box { LastSeen.save(t, LastSeen.stamp(img, box: b)) }
         }
     }
@@ -323,6 +325,8 @@ struct TargetChips: View {
                     .padding(.horizontal, 6).padding(.vertical, 6)
                 }
                 .scrollClipDisabled()
+                // 좌우만 잘라서 칩이 "+" 뒤로 비치지 않게. 위아래는 스티커 그림자가 보이도록 여유.
+                .mask(Rectangle().padding(.vertical, -30))
                 .onChange(of: target) { _, t in withAnimation { proxy.scrollTo(t.id, anchor: .center) } }
             }
         }
@@ -502,6 +506,25 @@ struct PhotoMode: View {
 
 /// 앱스토어 스크린샷용(디버그 빌드 전용): 시뮬레이터에서 `-demoPhoto <경로>`로 사진을 바로 띄우고 사진 버튼을 숨긴다.
 enum Demo {
+    /// `-demoAddName 여친`: '+' 화면 이름 칸을 미리 채운다(시뮬레이터 입력 도구가 한글을 못 쳐서).
+    static let addName: String? = {
+        #if DEBUG
+        return UserDefaults.standard.string(forKey: "demoAddName")
+        #else
+        return nil
+        #endif
+    }()
+    /// `-demoHits "x,y,w,h,conf"`: 가르친 물건의 매칭 결과(Vision 정규화 좌표). 같은 Matcher를 Mac에서 돌린 값.
+    static let hits: [Hit]? = {
+        #if DEBUG
+        guard let s = UserDefaults.standard.string(forKey: "demoHits") else { return nil }
+        let v = s.split(separator: ",").compactMap { Double($0) }
+        guard v.count == 5 else { return nil }
+        return [Hit(box: CGRect(x: v[0], y: v[1], width: v[2], height: v[3]), conf: Float(v[4]))]
+        #else
+        return nil
+        #endif
+    }()
     static let photo: UIImage? = {
         #if DEBUG
         guard let path = UserDefaults.standard.string(forKey: "demoPhoto") else { return nil }

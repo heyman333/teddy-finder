@@ -75,7 +75,9 @@ struct AddItemSheet: View {
             Spacer()
             bigButton("Next", enabled: !name.trimmingCharacters(in: .whitespaces).isEmpty, action: next)
         }
-        .onAppear { typing = true }
+        .onAppear {
+            if let n = Demo.addName { name = n } else { typing = true }
+        }
     }
 
     private func exampleResource(_ i: Int) -> String.LocalizationValue {

@@ -5,6 +5,9 @@
 
 <p><img src="Design/appstore/ko_1_found.png" width="220"> <img src="Design/appstore/ko_2_lastseen.png" width="220"> <img src="Design/appstore/ko_3_teach.png" width="220"></p>
 
+## 소개 영상
+[숏폼 영상 보기 (28초)](Design/video/teddyfinder_short.mp4). 등장인물은 모두 AI로 만든 가상 인물입니다.
+
 ## 기능
 - **실시간 찾기**: YOLOv8n(Core ML)으로 COCO 물건(리모컨, 휴대폰, 컵 …)을 찾고, 박스·나침반·폭죽으로 알려 줍니다.
 - **사진으로 가르치기**: 모델이 모르는 물건(에어팟, 차 키)은 사진 3장으로 등록합니다. Vision feature print로 비교합니다.
@@ -39,6 +42,7 @@ swiftc -O Sources/Tracker.swift Sources/Matcher.swift Checks/matcher/main.swift 
 | `Sources/Settings.swift` | 설정 |
 | `docs/` | 개인정보 처리방침, 고객 지원 (GitHub Pages) |
 | `Design/gen.sh` | 마스코트·아이콘 이미지 생성 스크립트 |
+| `Design/video/` | 숏폼 영상 조립 스크립트(`build.sh`), 캡션, 배경음 생성(`bgm.py`) |
 
 ## 라이선스
 [GNU AGPL-3.0](LICENSE). 포함된 탐지 모델 [Ultralytics YOLOv8n](https://github.com/ultralytics/ultralytics)이 AGPL-3.0이라 앱 전체를 같은 라이선스로 공개합니다.
