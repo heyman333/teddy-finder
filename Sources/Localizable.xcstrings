@@ -1,0 +1,896 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$@ %2$@"
+          }
+        }
+      }
+    },
+    "%@ here!": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 여기!"
+          }
+        }
+      }
+    },
+    "Book": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "책"
+          }
+        }
+      }
+    },
+    "Bottle": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "병"
+          }
+        }
+      }
+    },
+    "Can't find it?": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "못 찾겠어요 🥺"
+          }
+        }
+      }
+    },
+    "Check between the sofa cushions": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "소파 쿠션 사이를 살펴봐요"
+          }
+        }
+      }
+    },
+    "Check your bag and pockets": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "가방이랑 주머니도 확인!"
+          }
+        }
+      }
+    },
+    "Cup": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "컵"
+          }
+        }
+      }
+    },
+    "Found %@": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@에 찾았어요"
+          }
+        }
+      }
+    },
+    "Found it!!": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "찾았다!!"
+          }
+        }
+      }
+    },
+    "I haven't found it yet": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "아직 찾은 적이 없어요"
+          }
+        }
+      }
+    },
+    "Keep looking": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "계속 찾기"
+          }
+        }
+      }
+    },
+    "Last time it was here!": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "저번에는 여기 있었어요!"
+          }
+        }
+      }
+    },
+    "Look around the coffee table": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테이블 주변을 둘러봐요"
+          }
+        }
+      }
+    },
+    "Look inside the box 👀": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테두리 안을 봐요 👀"
+          }
+        }
+      }
+    },
+    "Looking for %@…": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 찾는 중…"
+          }
+        }
+      }
+    },
+    "Mouse": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "마우스"
+          }
+        }
+      }
+    },
+    "Move slowly and look around": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "천천히 주변을 비춰보세요"
+          }
+        }
+      }
+    },
+    "No camera in the Simulator.\nPick a photo to test detection.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "시뮬레이터에는 카메라가 없어요.\n사진을 골라 탐지를 확인해보세요."
+          }
+        }
+      }
+    },
+    "Once I find it, I'll remember where it was.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "한 번 찾으면 어디 있었는지 기억해 둘게요."
+          }
+        }
+      }
+    },
+    "Peek under the blanket": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "담요 밑을 들춰봐요"
+          }
+        }
+      }
+    },
+    "Phone": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "휴대폰"
+          }
+        }
+      }
+    },
+    "Pick a photo": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진 고르기"
+          }
+        }
+      }
+    },
+    "Remote": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "리모컨"
+          }
+        }
+      }
+    },
+    "Scissors": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "가위"
+          }
+        }
+      }
+    },
+    "TeddyFinder": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테디파인더"
+          }
+        }
+      }
+    },
+    "Things often end up in the same spot. Try there first!": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "물건은 자주 같은 자리에 있어요. 거기부터 찾아봐요!"
+          }
+        }
+      }
+    },
+    "Toothbrush": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "칫솔"
+          }
+        }
+      }
+    },
+    "Add something to find": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "찾을 물건 추가"
+          }
+        }
+      }
+    },
+    "Remove": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "지우기"
+          }
+        }
+      }
+    },
+    "What should Teddy look for?": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테디가 뭘 찾아볼까요?"
+          }
+        }
+      }
+    },
+    "e.g. AirPods": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "예: 에어팟"
+          }
+        }
+      }
+    },
+    "AirPods": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "에어팟"
+          }
+        }
+      }
+    },
+    "Car keys": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "차 키"
+          }
+        }
+      }
+    },
+    "Wallet": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "지갑"
+          }
+        }
+      }
+    },
+    "Teddy bear": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "곰인형"
+          }
+        }
+      }
+    },
+    "Next": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "다음"
+          }
+        }
+      }
+    },
+    "Teddy already knows this!": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테디가 이미 아는 물건이에요!"
+          }
+        }
+      }
+    },
+    "Start looking": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "찾기 시작"
+          }
+        }
+      }
+    },
+    "Teddy hasn't met %@ yet": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테디는 ‘%@’ 처음 봐요"
+          }
+        }
+      }
+    },
+    "Show it a few close-up photos": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "가까이서 찍은 사진 몇 장만 보여주세요"
+          }
+        }
+      }
+    },
+    "Fill the photo with the item": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "물건이 사진을 꽉 채우게"
+          }
+        }
+      }
+    },
+    "3 photos, different angles and places": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "각도랑 장소를 바꿔서 3장"
+          }
+        }
+      }
+    },
+    "Teddy couldn't learn from these. Try clearer close-ups.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 사진들로는 못 배웠어요. 더 가까이서 선명하게 찍어주세요."
+          }
+        }
+      }
+    },
+    "Teddy is studying…": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테디가 공부하는 중…"
+          }
+        }
+      }
+    },
+    "Teach Teddy": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테디에게 가르치기"
+          }
+        }
+      }
+    },
+    "Teach Teddy (%lld/3)": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테디에게 가르치기 (%lld/3)"
+          }
+        }
+      }
+    },
+    "Take a photo": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진 찍기"
+          }
+        }
+      }
+    },
+    "Choose from Photos": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "앨범에서 고르기"
+          }
+        }
+      }
+    },
+    "Add photo": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진 추가"
+          }
+        }
+      }
+    },
+    "Keyboard": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "키보드"
+          }
+        }
+      }
+    },
+    "Laptop": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "노트북"
+          }
+        }
+      }
+    },
+    "Handbag": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "가방"
+          }
+        }
+      }
+    },
+    "Backpack": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "백팩"
+          }
+        }
+      }
+    },
+    "Umbrella": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "우산"
+          }
+        }
+      }
+    },
+    "Clock": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "시계"
+          }
+        }
+      }
+    },
+    "Spoon": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "숟가락"
+          }
+        }
+      }
+    },
+    "Bowl": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "그릇"
+          }
+        }
+      }
+    },
+    "TV": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "티비"
+          }
+        }
+      }
+    },
+    "Vase": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "꽃병"
+          }
+        }
+      }
+    },
+    "Hair dryer": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "드라이기"
+          }
+        }
+      }
+    },
+    "Person": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사람"
+          }
+        }
+      }
+    },
+    "Teach Teddy who it is 💕": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "누군지 테디에게 알려주기 💕"
+          }
+        }
+      }
+    },
+    "Just find anyone": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "그냥 아무나 찾기"
+          }
+        }
+      }
+    },
+    "Teddy will remember today's outfit": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테디가 오늘 옷차림을 기억할게요"
+          }
+        }
+      }
+    },
+    "Full-body photos, same outfit as now": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "지금 옷 그대로, 전신 사진으로"
+          }
+        }
+      }
+    },
+    "Ask them first, it's a game for two 😉": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "먼저 물어보기! 둘이 하는 게임이에요 😉"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "설정"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "완료"
+          }
+        }
+      }
+    },
+    "Language": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "언어"
+          }
+        }
+      }
+    },
+    "Opens iPhone Settings. If Language isn't there, add both Korean and English under General › Language & Region.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "아이폰 설정이 열려요. 언어 항목이 안 보이면 일반 › 언어 및 지역에 한국어와 영어를 둘 다 추가해 주세요."
+          }
+        }
+      }
+    },
+    "When Teddy finds it": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테디가 찾았을 때"
+          }
+        }
+      }
+    },
+    "Vibration": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "진동"
+          }
+        }
+      }
+    },
+    "Sound": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "소리"
+          }
+        }
+      }
+    },
+    "Confetti": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "폭죽"
+          }
+        }
+      }
+    },
+    "Sensitivity": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "민감도"
+          }
+        }
+      }
+    },
+    "Careful": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "깐깐하게"
+          }
+        }
+      }
+    },
+    "Normal": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "보통"
+          }
+        }
+      }
+    },
+    "Eager": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "너그럽게"
+          }
+        }
+      }
+    },
+    "Missing things? Try Eager. Finding the wrong things? Try Careful.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "자꾸 놓치면 '너그럽게', 엉뚱한 걸 잡으면 '깐깐하게'로 바꿔보세요."
+          }
+        }
+      }
+    },
+    "My items": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "내가 추가한 물건"
+          }
+        }
+      }
+    },
+    "Nothing added yet. Tap + to add something.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "아직 없어요. + 를 눌러 추가해 보세요."
+          }
+        }
+      }
+    },
+    "Taught": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진으로 배움"
+          }
+        }
+      }
+    },
+    "Delete last-found photos": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "마지막으로 찾은 장소 사진 지우기"
+          }
+        }
+      }
+    },
+    "Delete all last-found photos?": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "마지막으로 찾은 장소 사진을 전부 지울까요?"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "지우기"
+          }
+        }
+      }
+    },
+    "When Teddy finds something, it saves a photo of the spot. You see it when you tap \"Can't find it?\". Everything stays on this iPhone.": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "테디가 물건을 찾으면 그 장소를 사진으로 남겨요. '못 찾겠어요'를 누르면 이 사진이 보여요. 모든 사진은 이 아이폰에만 있어요."
+          }
+        }
+      }
+    },
+    "Source code (AGPL-3.0)": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "소스 코드 (AGPL-3.0)"
+          }
+        }
+      }
+    },
+    "Privacy Policy": {
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "개인정보 처리방침"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

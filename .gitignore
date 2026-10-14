@@ -1,0 +1,7 @@
+build/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+.DS_Store
+# 이미지 생성 API 원본 응답(base64, 용량 큼)
+Design/*.json
+Design/test/*.json
